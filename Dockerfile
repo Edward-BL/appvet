@@ -20,11 +20,11 @@ RUN composer install
 
 # Set environment variables for AWS ECS
 ENV AWS_REGION=us-east-2
-ENV ECR_REPOSITORY=cachorropet
-ENV ECS_SERVICE=aws-service 
-ENV ECS_CLUSTER=ClusterCachorroPET
+ENV ECR_REPOSITORY=proypet
+ENV ECS_SERVICE=OneCluster
+ENV ECS_CLUSTER=OneCluster
 ENV ECS_TASK_DEFINITION=./familia1-revision1.json
-ENV CONTAINER_NAME=cachorropet
+ENV CONTAINER_NAME=proypet
 
 # Expose port 80 for Apache
 EXPOSE 8000
