@@ -22,7 +22,7 @@ RUN composer install
 ENV AWS_REGION=us-east-2
 ENV ECR_REPOSITORY=proypet
 ENV ECS_SERVICE=OneCluster
-ENV ECS_CLUSTER=OneCluster
+ENV ECS_CLUSTER=service2
 ENV ECS_TASK_DEFINITION=./familia1-revision1.json
 ENV CONTAINER_NAME=proypet
 
