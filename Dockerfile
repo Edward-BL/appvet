@@ -23,7 +23,7 @@ ENV AWS_REGION=us-east-2
 ENV ECR_REPOSITORY=cachorropet
 ENV ECS_SERVICE=aws-service 
 ENV ECS_CLUSTER=ClusterCachorroPET
-ENV ECS_TASK_DEFINITION=./tarea-1-revision1.json
+ENV ECS_TASK_DEFINITION=./familia1-revision1.json
 ENV CONTAINER_NAME=cachorropet
 
 # Expose port 80 for Apache
